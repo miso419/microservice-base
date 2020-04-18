@@ -1,6 +1,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const hpp = require('hpp');
+const logger = require('./helpers/logger');
 const webSocket = require('./webSocket');
 const home = require('./middleware/home');
 const notFound = require('./middleware/notFound');

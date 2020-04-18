@@ -1,4 +1,4 @@
-const logger = require('@min/logger');
+const logger = require('../helpers/logger');
 
 // NOTE: DO NOT REMOVE next even though it's not used. - express.js requirement
 /* eslint-disable no-unused-vars */

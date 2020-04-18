@@ -9,7 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org:builtlabsrepo/microservice-base.git"
+    "url": "git+https://bitbucket.org:builtlabsrepo/microservice-base.git",
+    "prepublishOnly": "npm run lint && npm run test"
   },
   "nyc": {
     "reporter": [
@@ -18,19 +19,21 @@
     ]
   },
   "dependencies": {
+    "@google-cloud/logging-winston": "^3.0.6",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "hpp": "^0.2.3",
     "node-uuid": "^1.4.8",
-    "nyc": "^15.0.0",
-    "ws": "^7.2.2"
+    "nyc": "^15.0.1",
+    "winston": "^3.2.1",
+    "ws": "^7.2.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "mocha": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mocha": "^7.1.1",
     "pre-commit": "^1.2.2",
     "proxyquire": "^2.1.3",
     "superagent": "^5.2.2"

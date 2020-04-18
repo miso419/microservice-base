@@ -12,6 +12,10 @@
   },
   "extends": "airbnb-base",
   "rules": {
-      "indent": [0, "tab"]
+    "rules": {
+        "linebreak-style": [2, "windows"],
+        "indent": [0, "tab"],
+        "arrow-body-style": [0, "as-needed"]
+    }
   }
 }
