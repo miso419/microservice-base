@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org:builtlabsrepo/microservice-base.git",
+    "url": "git+https://github.com/miso419/microservice-base.git",
     "prepublishOnly": "npm run lint && npm run test"
   },
   "nyc": {
