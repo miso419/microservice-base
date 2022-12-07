@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "@google-cloud/logging-winston": "^3.0.6",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "hpp": "^0.2.3",
     "node-uuid": "^1.4.8",
     "nyc": "^15.0.1",
